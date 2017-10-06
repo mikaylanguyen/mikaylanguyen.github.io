@@ -1,0 +1,44 @@
+@font-face{
+    font-family:Mikayla; 
+    src: url(fonts/watermelonscript.ttf) 
+
+}
+body{
+    background-color: #ddbcff;
+    color: black;
+    background-image: url("skies.JPG");
+}
+
+h1{
+    font-family: "Mikayla", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+#nav li a {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: #purple;
+    color: purple ;
+}
+#mikayla1 {
+    border: solid white 3px;
+    margin: center;
+    text-align: center;
+}
